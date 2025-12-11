@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | NEO-WEAR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/index.html">
+        <img src="/assets/logo/logo.svg" alt="NEO-WEAR Logo">
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/index.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="section-title">
+      <h2>Checkout</h2>
+      <p>Review, adjust und abschicken.</p>
+    </div>
+
+    <div class="card fade-element">
+      <table class="table" id="cartTable">
+        <thead>
+          <tr>
+            <th>Produkt</th>
+            <th>Menge</th>
+            <th>Preis</th>
+            <th>Aktion</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div style="display:flex; justify-content: space-between; align-items:center; margin-top:1rem;">
+        <strong id="totalAmount">0€</strong>
+        <button class="cta-btn" id="buyNowBtn">Buy Now</button>
+      </div>
+      <p id="checkoutFeedback" style="margin-top:0.5rem; color:#2d2d2d;"></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Secured checkout. Local storage cart. API-ready.</p>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/checkout.js"></script>
+</body>
+</html>

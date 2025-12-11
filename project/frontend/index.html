@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEO-WEAR | Futuristic Clothing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/index.html">
+        <img src="/assets/logo/logo.svg" alt="NEO-WEAR Logo">
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/index.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy fade-element">
+        <p class="badge">Ultra Minimal Techwear</p>
+        <h1>Future-ready Styles for Urban Explorers</h1>
+        <p>NEO-WEAR verbindet leichte Performance-Materialien mit einem futuristischen Look. Entdecke modulare Layer, leuchtende Details und Silhouetten, die sich deinem Tempo anpassen.</p>
+        <div class="hero-actions">
+          <a class="cta-btn" href="/shop.html">Shop Now</a>
+          <a class="cta-btn" href="#highlights" style="background:transparent;color:#2d2d2d;border:1px solid var(--silver);">Discover</a>
+        </div>
+      </div>
+      <div class="hero-visual fade-element">
+        <div class="floating-card">
+          <img src="/assets/products/product1.svg" alt="Hero Product">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <div class="section-title">
+        <h2>Neueste Drops</h2>
+        <div class="category-tags">
+          <span class="badge">Smooth Fade-In</span>
+          <span class="badge">Micro-Interactions</span>
+        </div>
+      </div>
+      <div class="grid highlight-grid" id="highlightGrid"></div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-title">
+        <h2>Kategorien</h2>
+        <p>Futuristische Styles für jede Linie.</p>
+      </div>
+      <div class="grid highlight-grid">
+        <div class="card fade-element">
+          <h3>Men</h3>
+          <p>Performance Layering, reduzierte Silhouetten.</p>
+        </div>
+        <div class="card fade-element">
+          <h3>Women</h3>
+          <p>Fließende Cuts und adaptive Stoffe.</p>
+        </div>
+        <div class="card fade-element">
+          <h3>Techwear</h3>
+          <p>Utility meets neon details und modulare Features.</p>
+        </div>
+        <div class="card fade-element">
+          <h3>Accessories</h3>
+          <p>Smart Packs, Gloves, Visors mit AR-Bereitschaft.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>NEO-WEAR — Futuristic Clothing Concepts. Smooth, clean, responsive.</p>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

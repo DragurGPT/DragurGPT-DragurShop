@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | NEO-WEAR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="logo" href="/index.html">
+        <img src="/assets/logo/logo.svg" alt="NEO-WEAR Logo">
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/index.html">Home</a>
+        <a href="/shop.html">Shop</a>
+        <a href="/checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="section-title">
+      <h2>Shop</h2>
+      <p>20 futuristische Pieces mit cleanem Look.</p>
+    </div>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Suche nach Produkt oder Kategorie" aria-label="Suche">
+      <select id="categoryFilter" aria-label="Kategorie filtern">
+        <option value="all">Alle Kategorien</option>
+      </select>
+      <select id="priceFilter" aria-label="Preis filtern">
+        <option value="all">Alle Preise</option>
+        <option value="low">Unter 100€</option>
+        <option value="mid">100€ - 150€</option>
+        <option value="high">Über 150€</option>
+      </select>
+    </div>
+
+    <div class="grid products-grid" id="productsGrid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Futuristic silhouettes. Soft gradients. Parallax vibes.</p>
+  </footer>
+
+  <script src="/js/cart.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/shop.js"></script>
+</body>
+</html>

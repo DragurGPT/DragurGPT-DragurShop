@@ -1,0 +1,12 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#grad9)" rx="20"/>
+  <circle cx="150" cy="140" r="90" fill="#ffffff" opacity="0.5" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="32" font-family="Orbitron, Inter" fill="#7a7a7a">NEO 9</text>
+  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-size="16" font-family="Inter" fill="#7a7a7a">Futuristic Fit</text>
+</svg>

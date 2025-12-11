@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEO-WEAR | Checkout</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo/logo.svg" alt="NEO-WEAR logo" />
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <h1>Checkout</h1>
+    <div id="cartList"></div>
+    <div style="margin-top: 16px; font-weight: 700;">Total: $<span id="cartTotal">0.00</span></div>
+
+    <div style="margin-top: 24px;" class="product-detail">
+      <div>
+        <h3>Customer</h3>
+        <input class="input" id="customerName" type="text" placeholder="Name" />
+        <input class="input" id="customerEmail" type="email" placeholder="Email" style="margin-top: 10px;" />
+        <textarea class="input" id="customerAddress" placeholder="Address" style="margin-top: 10px; min-height: 100px;"></textarea>
+      </div>
+      <div>
+        <h3>Summary</h3>
+        <p>Adjust quantities, review totals, and confirm your order.</p>
+        <button class="btn primary" id="buyNow">Buy Now</button>
+        <div id="checkoutMessage" style="margin-top: 12px;"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    Crafted for tomorrow — NEO-WEAR
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>

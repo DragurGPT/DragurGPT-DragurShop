@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEO-WEAR | Shop</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo/logo.svg" alt="NEO-WEAR logo" />
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <h1>Shop the Drop</h1>
+    <p>Search, filter, and tap into the latest techwear silhouettes.</p>
+
+    <div class="products-controls">
+      <input class="input" id="searchInput" type="text" placeholder="Search products" />
+      <select class="select" id="categoryFilter">
+        <option value="all">All categories</option>
+        <option value="Men">Men</option>
+        <option value="Women">Women</option>
+        <option value="Techwear">Techwear</option>
+        <option value="Accessories">Accessories</option>
+      </select>
+      <select class="select" id="priceFilter">
+        <option value="all">Any price</option>
+        <option value="low">Below $100</option>
+        <option value="mid">$100 - $180</option>
+        <option value="high">Above $180</option>
+      </select>
+    </div>
+
+    <div class="grid" id="shopGrid"></div>
+  </main>
+
+  <footer class="footer">
+    Crafted for tomorrow — NEO-WEAR
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>

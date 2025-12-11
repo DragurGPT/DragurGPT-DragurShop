@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEO-WEAR | Futuristic Fashion</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo/logo.svg" alt="NEO-WEAR logo" />
+        <span>NEO-WEAR</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="checkout.html">Checkout</a>
+      </div>
+      <div class="cart-badge" id="cartBadge">
+        <span>Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="fade-in">
+          <div class="tag">FUTURE / READY</div>
+          <h1>Minimal Techwear for the New Era</h1>
+          <p class="subtitle">Discover modular silhouettes, responsive fabrics, and micro-interactions that make every outfit feel alive.</p>
+          <div class="btn-group">
+            <a class="btn primary" href="shop.html">Shop Now</a>
+            <a class="btn" href="#highlights">View Highlights</a>
+          </div>
+          <div class="stats">
+            <div class="stat-card">
+              <strong>20+</strong>
+              <div>Curated drops</div>
+            </div>
+            <div class="stat-card">
+              <strong>Responsive</strong>
+              <div>Adaptive fabrics</div>
+            </div>
+            <div class="stat-card">
+              <strong>Secure</strong>
+              <div>Seamless checkout</div>
+            </div>
+          </div>
+        </div>
+        <div class="parallax fade-in" id="heroParallax">
+          <img src="assets/products/product1.svg" alt="Futuristic jacket" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <h2>Product Highlights</h2>
+      <p>Hand-picked techwear pieces that balance edge, comfort, and utility.</p>
+      <div class="grid" id="highlightGrid"></div>
+    </section>
+
+    <section class="section" id="categories">
+      <h2>Categories</h2>
+      <p>Navigate the looks by style.</p>
+      <div class="categories">
+        <div class="category fade-in">
+          <div class="badge">Men</div>
+          <p>Architectural staples tailored for him.</p>
+        </div>
+        <div class="category fade-in">
+          <div class="badge">Women</div>
+          <p>Elevated essentials with fluid geometry.</p>
+        </div>
+        <div class="category fade-in">
+          <div class="badge">Techwear</div>
+          <p>Performance-first silhouettes with smart details.</p>
+        </div>
+        <div class="category fade-in">
+          <div class="badge">Accessories</div>
+          <p>Micro-utility pieces built to carry the future.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Crafted for tomorrow — NEO-WEAR
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

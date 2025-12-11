@@ -1,0 +1,22 @@
+[
+  {"id":"p1","name":"Nebula Tech Jacket","price":189,"description":"Lightweight reflective jacket with adaptive ventilation.","category":"Techwear","image":"/assets/products/product1.svg"},
+  {"id":"p2","name":"Lunar Weave Hoodie","price":129,"description":"Thermal-layered hoodie with fiber-optic piping.","category":"Techwear","image":"/assets/products/product2.svg"},
+  {"id":"p3","name":"Orbit Runner Sneakers","price":159,"description":"Cushioned midsole with magnetic lace lock system.","category":"Footwear","image":"/assets/products/product3.svg"},
+  {"id":"p4","name":"Pulse Mesh Tee","price":69,"description":"Breathable mesh tee with anti-static coating.","category":"Men","image":"/assets/products/product4.svg"},
+  {"id":"p5","name":"Aurora Layer Dress","price":149,"description":"Modular dress with gradient reflective panels.","category":"Women","image":"/assets/products/product5.svg"},
+  {"id":"p6","name":"Ion Trail Boots","price":179,"description":"Rugged boots with nano-grip outsole.","category":"Footwear","image":"/assets/products/product6.svg"},
+  {"id":"p7","name":"Flux Cargo Pants","price":119,"description":"Slim cargo pants with magnetic pockets.","category":"Men","image":"/assets/products/product7.svg"},
+  {"id":"p8","name":"Halo Shell Coat","price":219,"description":"Weatherproof shell with luminous seams.","category":"Women","image":"/assets/products/product8.svg"},
+  {"id":"p9","name":"Spectra Visor","price":89,"description":"Augmented reality ready visor with glare shield.","category":"Accessories","image":"/assets/products/product9.svg"},
+  {"id":"p10","name":"Quanta Track Top","price":99,"description":"Stretch track jacket with biometric cuff.","category":"Men","image":"/assets/products/product10.svg"},
+  {"id":"p11","name":"Circuit Skirt","price":109,"description":"Layered skirt with circuit-inspired stitching.","category":"Women","image":"/assets/products/product11.svg"},
+  {"id":"p12","name":"Zenith Compression Top","price":89,"description":"Cooling compression top with laser-cut vents.","category":"Women","image":"/assets/products/product12.svg"},
+  {"id":"p13","name":"Prism Runner Shorts","price":79,"description":"Ultralight shorts with hidden phone holster.","category":"Men","image":"/assets/products/product13.svg"},
+  {"id":"p14","name":"Echo Thermal Gloves","price":59,"description":"Touch-responsive gloves with heat mapping.","category":"Accessories","image":"/assets/products/product14.svg"},
+  {"id":"p15","name":"Vortex Travel Pack","price":169,"description":"Modular backpack with smart weight distribution.","category":"Accessories","image":"/assets/products/product15.svg"},
+  {"id":"p16","name":"Pulse Knit Beanie","price":49,"description":"Soft knit beanie with reflective fibers.","category":"Accessories","image":"/assets/products/product16.svg"},
+  {"id":"p17","name":"Gravity Flex Jeans","price":129,"description":"Denim with 4D stretch and anti-fade wash.","category":"Men","image":"/assets/products/product17.svg"},
+  {"id":"p18","name":"Nova Glide Leggings","price":99,"description":"Second-skin leggings with breathable panels.","category":"Women","image":"/assets/products/product18.svg"},
+  {"id":"p19","name":"Drift Layer Scarf","price":69,"description":"Featherlight scarf with thermo-regulation.","category":"Accessories","image":"/assets/products/product19.svg"},
+  {"id":"p20","name":"Aether Puffer Vest","price":139,"description":"Insulated vest with adaptive insulation.","category":"Techwear","image":"/assets/products/product20.svg"}
+]
